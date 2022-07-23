@@ -1,0 +1,114 @@
+.slideshow {  /* for slider's width and height*/
+overflow: hidden;
+height: 500px;
+width: 1200px;
+margin: 0 auto;
+}
+.slide-wrapper {
+width: 3000px;
+animation: slide 10s infinite;
+}
+.image-container{ /* for image's width and height*/
+margin-top: 50px;
+float: left;
+height: 500px;
+width: 800px;
+}
+.slideshow {  /* for slider's width and height*/
+overflow: hidden;
+height: 500px;
+width: 1200px;
+margin: 0 auto;
+}
+.slide-wrapper {
+width: 6000px;
+animation: slide 10s infinite;
+}
+.image-container{ /* for image's width and height*/
+margin-top: 50px;
+float: left;
+height: 500px;
+width: 800px;
+}
+.image-container:nth-child(1) {
+background-image: url("1st.png" ) ;
+}
+.image-container:nth-child(2) {
+background-image: url("2nd.jpg" ) ;
+}
+.image-container:nth-child(3) {
+background-image: url("3rd.jpg" ) ;
+}
+.image-container:nth-child(4) {
+background-image: url("4th.jpeg" ) ;
+}
+@keyframes slide {
+20% {margin-left: 0px;}
+30% {margin-left: -728px;}
+50% {margin-left: -728px;}
+60% {margin-left: -1456px;}
+70% {margin-left: -1456px;}
+80% {margin-left: -2184px;}
+90% {margin-left: -2184px;}
+}
+ul{
+margin: 0;
+padding : 0;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: float; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+.footer {  
+position: float;  
+left: 5px;  
+bottom: 5px;  
+right: 0px;   
+width: 100%;  
+background-color: #2a1585;  
+color: white;  
+text-align: center;  
+}  
+.logo{
+width: 200px;
+position:absolute;
+top:5%;
+left:5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
